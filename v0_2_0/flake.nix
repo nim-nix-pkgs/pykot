@@ -11,6 +11,7 @@
   inputs.src-pykot-v0_2_0.ref   = "refs/tags/v0.2.0";
   inputs.src-pykot-v0_2_0.owner = "jabbalaci";
   inputs.src-pykot-v0_2_0.repo  = "nimpykot";
+  inputs.src-pykot-v0_2_0.dir   = "";
   inputs.src-pykot-v0_2_0.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:

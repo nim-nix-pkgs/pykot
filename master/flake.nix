@@ -11,6 +11,7 @@
   inputs.src-pykot-master.ref   = "refs/heads/master";
   inputs.src-pykot-master.owner = "jabbalaci";
   inputs.src-pykot-master.repo  = "nimpykot";
+  inputs.src-pykot-master.dir   = "";
   inputs.src-pykot-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
